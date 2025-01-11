@@ -8,7 +8,7 @@ Make sure you have Python installed + added to path, then run the following comm
 
 `pip install git+https://github.com/Xtr4F/PyCharacterAI`
 
-Now, open V3.py. Near the top you should see `discord_token` and `ai_token`. Replace these with your tokens-- Discord can be found in the bot dev portal. For Character.AI you'll need to open your browser's developer tools (`F12`, `Ctrl+Shift+I`, or `Cmd+J`), go to the `Network` tab, look for `Authorization` in the request header (you may have to interact with the site..), and copy the value after `Token`.
+Now, open V3.py. Near the top you should see `dctoken` and `caitoken`. Replace these with your tokens-- Discord can be found in the bot dev portal. For Character.AI you'll need to open your browser's developer tools (`F12`, `Ctrl+Shift+I`, or `Cmd+J`), go to the `Network` tab, look for `Authorization` in the request header (you may have to interact with the site..), and copy the value after `Token`.
 ## How To Use
 Your server will need a channel with the name `chat` (for communicating with the AI) and a channel called `character-id-submissions` (to change the character). Type anything in the `chat` channel (with the program running ofc), and you should get a response! 
 
